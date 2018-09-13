@@ -1,0 +1,335 @@
+@media (min-width: 890px) and (max-width: 2000px) {
+	.menu {
+		display: none !important;
+	}
+	.sidenav{
+		display: all !important;
+	}
+}
+@media (max-width: 850px) {
+	.menu {
+		display: all !important;
+	}
+	.sidenav{
+		display: none !important;
+	}
+}
+
+/*untuk desktop*/
+@media (max-width: 2000px) {
+	.login{
+		margin-left: 820px;
+		background-color: orange; 
+		border-radius: 5px
+	}
+	.status-warna{
+		padding: 15px;
+	}
+	#navbarDropdownMenuLink{
+		color: white; 
+	}	
+	.nav-item{
+		color: #7bc4ff;
+	}
+	.card-body{
+		border-radius: 10px;
+	}
+	.row{
+		margin-left: 10px;
+	}
+	#btn-x{
+		width: 50%;
+		background-color: #ED5138;
+		color: white;
+	}
+	.dropdown-urutkan{
+		height: 40px;
+		margin-left: 235px;
+	}
+	#nama{
+		color: white;
+	}
+
+	#kunjungan{
+		color: #FFFF00;
+	}
+	.card-status-kunjungan{
+		padding-top: 10px;
+	}
+	.card-utama-blusukan{
+		margin-left: 15px;
+	}
+}
+/*untuk desktop*/
+@media (max-width: 1315px) {
+	#navbarNavDropdown{
+		text-align: center;
+	}
+	.login{
+		margin-left: 0px;
+		background-color: rgba(255,255,255,0.1); 
+		text-align: center;
+	}
+	#navbarDropdownMenuLink{
+		color: orange; 
+	}
+	.card-body{
+		border-radius: 10px;
+	}
+	.sidenav{
+		margin-left: 10px;
+	}
+	.row{
+		margin-left: 0px;
+	}
+	.btn{		
+		margin-left: -1%;
+	}
+	#btn-x{
+		width: 100%;
+		background-color: #01ADF0;
+		color: white;
+	}
+	.textarea.form-control{
+		height:20px;
+	}
+	#btn-umumkan{
+		margin-left: 450px;
+	}
+	.dropdown-urutkan{
+		height: 40px;
+		margin-left: 105px;
+	}
+}
+
+/*untuk tab*/
+@media (max-width: 900px) {
+	.jumbotron{
+		display: none;
+	}
+	.card-body{
+		width: 100%;
+		border-radius: 0px;
+	}
+	.row{
+		margin: 0px;
+	}
+	.sidenav{
+		margin-left: 0px;
+	}
+	#tanggal{
+		font-size: 10px;
+	}
+	#btn-x{
+		font-size: 11px;
+	}
+	.card-utama-blusukan{
+		margin-left: 30px;
+	}
+	.dropdown-urutkan{
+		height: 40px;
+		margin-left: 10px;
+	}
+	.form-cari-warga{
+		width: 40%;
+	}
+}
+
+/*untuk tab*/
+@media (max-width: 700px) {
+	.jumbotron{
+		display: none;
+	}
+	.card-body{
+		width: 100%;
+		border-radius: 0px;
+	}
+	.row{
+		margin: 0px;
+	}
+	.sidenav{
+		margin-left: 0px;
+	}
+	#tanggal{
+		font-size: 10px;
+	}
+	.card-tabel{
+		font-size: 11px;
+	}
+	#btn-x{
+		font-size: 10px;
+	}
+	.card-utama-blusukan{
+		margin-left: 20px;
+	}
+	#btn-umumkan{
+		margin-left: 295px;
+		font-size: 11px;
+	}
+	.status-warna{
+		padding: 12px;
+	}
+	#nama{
+		font-size: 12px;
+	}
+	#kunjungan{
+		font-size: 12px;
+	}
+	.dropdown-urutkan{
+		height: 40px;
+		margin-left: 2px;
+	}
+	
+}
+
+/*untuk HP*/
+@media (max-width: 600px) {
+	#btn-umumkan{
+		margin-left: 0px;
+	}
+	.status-warna{
+		padding: 10px;
+	}
+	.card-utama-kunjungan{
+		padding: 0px;
+	}
+	#nama{
+		font-size: 10px;
+	}
+	#kunjungan{
+		font-size: 10px;
+	}
+	/*.search{
+		margin-left: 0px;
+	}
+	.tbl-cari{
+		margin-left: 158px;
+	}
+	.dropdown-urutkan{
+		margin-top: 20px;
+		margin-left: 0px;	
+	}*/
+	.form-cari-warga{
+		width: 70%;
+	}
+}
+
+/*untuk HP*/
+@media (max-width: 480px) {
+	.card-utama-blusukan{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.card-utama-kunjungan{
+		width: 300px;
+	}
+	.card-status-kunjungan{
+		margin-left: -4px;
+	}
+}
+
+/*untuk HP*/
+@media (max-width: 420px) {
+	.card-utama-blusukan{
+		border-color: white;
+	}
+}
+
+.body{
+	min-height: 10000px;
+	font-size: 14px;
+	font-family: montserrat;
+}
+.sidenav{
+	height: 100%;
+}
+.card-utama-blusukan{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+.card-utama-blusukan.muncul{
+	opacity: 1;
+	transform: translate(0, 0px);
+	z-index: 1;
+	background-color: #232D3F;
+}
+.navbar{
+	background-color: rgba(255,255,255,0.9);
+}
+.jumbotron{
+	background-image: url('../../img/banner.jpg');
+	background-size: cover;
+	background-position: 100% 30%;
+}
+.btn-dashboard{
+	padding-top: 15px;
+	margin-top: 10px;
+	width: 100%;
+	height: 60px;
+	background-color: #01ADF0;
+	color: white;
+}
+
+/*Ngatur lebar formulir umumin form proker*/
+::-webkit-input-placeholder { /* WebKit browsers */
+	color:  white;
+}
+.textarea{
+	border-color: white;
+}
+/*tombol keatas*/
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	outline: none;
+	background-color: #FFA500;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-width: 0px;
+	border-radius: 5px;
+}
+#myBtn:hover {
+	border-width: 1px;
+	border-color: #FFA500;
+	color: #FFA500;
+	background-color: white;
+}
+#btn-x{
+	background-color: #ED5138;
+}
+#btn-x:hover{
+	color: #ED5138;
+	background-color: white;
+}
+#btn-umumkan{
+	background-color:  #01ADF0;
+}
+#btn-umumkan:hover{
+	color: #01ADF0;
+	background-color: white;
+}
+#btn-sekarang{
+	background-color: #FFA500;
+}
+#btn-sekarang:hover{
+	color: #FFA500;
+	background-color: #232D3F;
+}
+.btn-dashboard:hover{
+	color: white;
+	background-color: #232D3F;
+}
+.btn-menu{
+	color: white;
+	background-color: #232D3F;
+}
+.btn-menu:hover{
+	color: #232D3F;
+	background-color: white;
+}

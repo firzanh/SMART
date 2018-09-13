@@ -1,0 +1,256 @@
+@media (min-width: 890px) and (max-width: 2000px) {
+	.menu {
+		display: none !important;
+	}
+	.sidenav{
+		display: all !important;
+	}
+}
+@media (max-width: 850px) {
+	.menu {
+		display: all !important;
+	}
+	.sidenav{
+		display: none !important;
+	}
+}
+@media (max-width: 2000px) {
+	.login{
+		margin-left: 820px;
+		background-color: orange; 
+		border-radius: 5px
+	}
+	#navbarDropdownMenuLink{
+		color: white; 
+	}
+	.nav-item{
+		color: #7bc4ff;
+	}
+	.card-body{
+		border-radius: 10px;
+	}
+	.card-diagram{
+		margin-left: 10px;
+	}
+	.card-c-diagram{
+		margin-left: 10px;
+	}
+	.card-tabel-proker{
+		margin-left: 342px;
+	}
+	.card-tabel-laporan{
+		margin-left: 342px;
+	}
+	.row{
+		margin-left: 10px;
+	}
+	.btn-laporan{
+		background-color: #01ADF0;
+		color: white;
+	}
+}
+@media (max-width: 1315px) {
+	#navbarNavDropdown{
+		text-align: center;
+	}
+	.login{
+		margin-left: 0px;
+		background-color: rgba(255,255,255,0.1); 
+		text-align: center;
+	}
+	#navbarDropdownMenuLink{
+		color: orange; 
+	}
+	.card-body{
+		border-radius: 10px;
+	}
+	.sidenav{
+		margin-left: 10px;
+	}
+	.row{
+		margin-left: 0px;
+	}
+	.btn{		
+		margin-left: -1%;
+	}
+	.btn-laporan{
+		width: 100%;
+		background-color: #01ADF0;
+		color: white;
+	}
+	.card-tabel-laporan{
+		margin-left: 10px;
+	}
+	.card-tabel-proker{
+		margin-left: 10px;
+	}
+}
+@media (max-width: 1100px) {
+	.card-tabel-proker{
+		margin-left: 272px;
+	}
+	.card-tabel-laporan{
+		margin-left: 272px;
+	}
+}
+@media (max-width: 900px) {
+	.jumbotron{
+		display: none;
+	}
+	.card-body{
+		width: 100%;
+		border-radius: 0px;
+	}
+	.row{
+		margin: 0px;
+	}
+	.sidenav{
+		margin-left: 0px;
+	}
+	#tanggal{
+		font-size: 10px;
+	}
+	.card-tabel-proker{
+		margin-left: 10px;
+		font-size: 11px;
+	}
+	.card-tabel-laporan{
+		margin-left: 10px;
+		font-size: 11px;
+	}
+	.btn-laporan{
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 650px) {
+	.card-diagram{
+		margin-left: 40px;
+	}
+	.card-c-diagram{
+		margin-left: 40px;
+	}
+	.card-tabel-proker{
+		margin-left:40px;
+		font-size: 11px;
+	}
+	.card-tabel-laporan{
+		margin-left:40px;
+		font-size: 11px;
+	}
+}
+@media (max-width: 500px) {
+	.card-diagram{
+		margin-left: 10px;
+	}
+	.card-c-diagram{
+		margin-left: 10px;
+	}
+	.card-tabel-proker{
+		margin-left:10px;
+	}
+	.card-tabel-laporan{
+		margin-left:10px;
+	}
+}
+@media (max-width: 420px) {
+
+}
+.body{
+	min-height: 10000px;
+	font-size: 14px;
+	font-family: montserrat;
+}
+.card-diagram{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+.card-c-diagram{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+.card-tabel-laporan{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+.card-tabel-proker{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+.card-diagram.muncul{
+	opacity: 1;
+	transform: translate(0, 0px);
+}
+.card-c-diagram.muncul{
+	opacity: 1;
+	transform: translate(0, 0px);
+}
+.card-tabel-laporan.muncul{
+	opacity: 1;
+	transform: translate(0, 0px);
+}
+.card-tabel-proker.muncul{
+	opacity: 1;
+	transform: translate(0, 0px);
+}
+.navbar{
+	background-color: rgba(255,255,255,0.9);
+}
+.jumbotron{
+	background-image: url('../../img/banner.jpg');
+	background-size: cover;
+	background-position: 100% 30%;
+}
+.btn-dashboard{
+	padding-top: 15px;
+	margin-top: 10px;
+	width: 100%;
+	height: 60px;
+	background-color: #01ADF0;
+	color: white;
+}
+.btn-laporan{
+	background-color: #01ADF0;
+	color: white;
+}
+#piechart{
+	background-size: auto;
+}
+/*tombol keatas*/
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	outline: none;
+	background-color: #FFA500;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-width: 0px;
+	border-radius: 5px;
+}
+#myBtn:hover {
+	border-width: 1px;
+	border-color: #FFA500;
+	color: #FFA500;
+	background-color: white;
+}
+.btn-dashboard:hover{
+	color: white;
+	background-color: #232D3F;
+}
+.btn-menu{
+	color: white;
+	background-color: #232D3F;
+}
+.btn-menu:hover{
+	color: #232D3F;
+	background-color: white;
+}

@@ -1,2 +1,2 @@
 # SMART
-Aplikasi 
+Sistem Aplikasi Rukun Tetangga
